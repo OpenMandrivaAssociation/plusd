@@ -38,6 +38,7 @@ BuildRequires:	autoconf2.5
 BuildRequires:	pkgconfig
 BuildRequires:	MySQL-devel
 BuildRequires:	openssl-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 BananaPOS is a point of sale system aimed at the Linux operating
