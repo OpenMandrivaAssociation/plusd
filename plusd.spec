@@ -36,7 +36,7 @@ BuildRequires:	libxml++-devel >= 2.6
 BuildRequires:	automake1.7
 BuildRequires:	autoconf2.5
 BuildRequires:	pkgconfig
-BuildRequires:	MySQL-devel
+BuildRequires:	mysql-devel
 BuildRequires:	openssl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
@@ -55,7 +55,7 @@ Requires:	libbhpos_hwlib-devel >= 2.0.0
 Requires:	libbhpos_mflibs-devel >= 2.0.0
 Requires:	libbhpos_serverlibs-devel >= 2.0.0
 Requires:	pkgconfig
-Requires:	MySQL-devel
+Requires:	mysql-devel
 Requires:	openssl-devel
 
 %description	devel
