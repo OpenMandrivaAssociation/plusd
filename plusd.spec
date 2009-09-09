@@ -1,7 +1,7 @@
 Summary:	BananaPOS (Point Of Sale) PLU (Price Look UP) Server Daemon
 Name:		plusd
 Version:	2.0.0
-Release:	%mkrel 0.beta3.3
+Release:	%mkrel 0.beta3.4
 License:	GPL
 Group:		System/Servers
 URL:		http://www.bananahead.com
