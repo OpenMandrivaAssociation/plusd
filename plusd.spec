@@ -1,7 +1,7 @@
 Summary:	BananaPOS (Point Of Sale) PLU (Price Look UP) Server Daemon
 Name:		plusd
 Version:	2.0.0
-Release:	%mkrel 0.beta3.4
+Release:	%mkrel 0.beta3.5
 License:	GPL
 Group:		System/Servers
 URL:		http://www.bananahead.com
@@ -33,7 +33,7 @@ BuildRequires:	libtool >= 1.5
 BuildRequires:	libxml2 >= 2.5.8
 BuildRequires:	libusb-devel >= 0.1.8
 BuildRequires:	libxml++-devel >= 2.6
-BuildRequires:	automake1.7
+BuildRequires:	automake
 BuildRequires:	autoconf2.5
 BuildRequires:	pkgconfig
 BuildRequires:	mysql-devel
@@ -84,7 +84,7 @@ chmod 644 db/*
 %build
 export WANT_AUTOCONF_2_5=1
 #rm -f configure
-#libtoolize --copy --force; aclocal-1.7; autoheader; automake-1.7 --add-missing --copy --gnu; autoconf
+#libtoolize --copy --force; aclocal; autoheader; automake --add-missing --copy --gnu; autoconf
 
 sh ./autogen.sh
 
