@@ -1,0 +1,20 @@
+--- scripts/plusd.conf	2005-10-10 12:47:44.000000000 +0200
++++ scripts/plusd.conf.oden	2006-02-04 13:24:25.000000000 +0100
+@@ -1,7 +1,7 @@
+ [default] 
+ debuglevel=3
+ isdaemon=y
+-pidfile=/var/bhpos/plusd.pid
++pidfile=/var/run/plusd/plusd.pid
+ protocoludp=y
+ protocoltcp=y
+ host=127.0.0.1
+@@ -13,7 +13,7 @@
+ [system]
+ basecurrencyid=270
+ baselocaleid=270
+-modulesdir=/usr/sbin/bhpos/modules/
++modulesdir=/usr/lib/bhpos2.0/modules/
+ errorredirect=N
+ erroraddr=127.0.0.1
+ errorport=6673

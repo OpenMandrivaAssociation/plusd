@@ -1,0 +1,15 @@
+--- configure.in	2005-11-01 06:31:00.000000000 +0100
++++ configure.in.oden	2006-02-04 14:39:41.000000000 +0100
+@@ -36,9 +36,9 @@
+ esac
+ AC_SUBST(BH_LIBNAME)
+ 
+-DIR_BHETC="/etc/bhpos"
+-DIR_BHVAR="/var/bhpos"
+-DIR_INIT="/etc/init.d"
++DIR_BHETC="/etc"
++DIR_BHVAR="/var/run/plusd"
++DIR_INIT="/etc/rc.d/init.d"
+ DIR_BHINCLUDE="$plusprefix/include/bhpos2.0/plus"
+ DIR_BHDOCS="$plusprefix/share/bhpos2.0/docs"
+ DIR_BHSCRIPTS="$plusprefix/share/bhpos2.0/scripts"

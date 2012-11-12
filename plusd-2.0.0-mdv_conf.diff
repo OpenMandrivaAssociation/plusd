@@ -1,0 +1,20 @@
+--- src/main.cpp	2005-11-16 11:19:50.000000000 +0100
++++ src/main.cpp.oden	2006-02-04 13:17:28.000000000 +0100
+@@ -1482,7 +1482,7 @@
+    
+ 	if(ConfigFile==NULL){
+ 		ConfigFile=new char[22];
+-		if(ConfigFile) strcpy(ConfigFile, "/etc/bhpos/plusd.conf");
++		if(ConfigFile) strcpy(ConfigFile, "/etc/plusd.conf");
+ 	}
+ 	
+ 	if(dl!=0){
+@@ -1543,7 +1543,7 @@
+ 	}
+ 	if(pidfile==NULL){
+ 		pidfile=new char[21];
+-		if(pidfile) strcpy(pidfile, "/var/bhpos/plusd.pid");
++		if(pidfile) strcpy(pidfile, "/var/run/plusd/plusd.pid");
+ 	}
+ 	if(check_pidfile() < 0){
+ 		printf("Server already Running...\n");

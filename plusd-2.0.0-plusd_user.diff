@@ -1,0 +1,19 @@
+--- src/main.cpp	2005-11-16 11:19:50.000000000 +0100
++++ src/main.cpp.oden	2006-02-04 13:19:17.000000000 +0100
+@@ -154,14 +154,14 @@
+ {
+    int   status;
+    
+-   group *bhpos_group=getgrnam("bhpos");
++   group *bhpos_group=getgrnam("plusd");
+    if(bhpos_group==NULL) return 1;
+    status=setegid(bhpos_group->gr_gid);
+    if(status < 0){
+       return 2;
+    }
+ 
+-   passwd *bhpos_user=getpwnam("bhpos");
++   passwd *bhpos_user=getpwnam("plusd");
+    if(bhpos_user==NULL) return 3;
+    status = seteuid(bhpos_user->pw_uid);
+    if(status < 0){

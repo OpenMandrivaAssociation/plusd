@@ -1,0 +1,11 @@
+--- src/servmsg.cpp	2005-10-10 12:47:42.000000000 +0200
++++ src/servmsg.cpp.oden	2006-02-04 14:11:22.000000000 +0100
+@@ -430,7 +430,7 @@
+    struct sockaddr saddr;
+    char *ifname = "eth0";
+ 
+-   clientid=(int) msg->data;
++   clientid=(long) msg->data;
+ 
+    // hdr info
+    // ether   IP   TCP/UCP
