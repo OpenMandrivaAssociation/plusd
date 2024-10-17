@@ -4,7 +4,7 @@ Version:	2.0.0
 Release:	%mkrel 0.beta3.5
 License:	GPL
 Group:		System/Servers
-URL:		http://www.bananahead.com
+URL:		https://www.bananahead.com
 Source0:	ftp://bananahead.com/pub/bhpos2/stable/%{name}-%{version}.tar.bz2
 Source1:	db.tar.bz2
 Source2:	plusd.init.bz2
