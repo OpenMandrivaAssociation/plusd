@@ -20,6 +20,8 @@ Requires(post): rpm-helper
 Requires(preun): rpm-helper
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	libbhpos_commonlibs-devel >= 2.0.0
 BuildRequires:	libbhpos_hwlib-devel >= 2.0.0
 BuildRequires:	libbhpos_mflibs-devel >= 2.0.0
